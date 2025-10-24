@@ -1,0 +1,17 @@
+{
+	"name": "cdc_dynamic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datalakeLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation"
+			}
+		},
+		"schema": {}
+	}
+}
