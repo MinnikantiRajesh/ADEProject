@@ -259,11 +259,7 @@
 								"secureOutput": false,
 								"secureInput": false
 							},
-							"userProperties": [
-								{
-									"name": "current"
-								}
-							],
+							"userProperties": [],
 							"typeProperties": {
 								"variableName": "current",
 								"value": {
