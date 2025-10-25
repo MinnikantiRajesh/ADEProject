@@ -130,7 +130,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@greater(activity('azuresqldb').output.value[0],0)",
+									"value": "@greater(activity('azuresqldb').output.dataRead,0)",
 									"type": "Expression"
 								},
 								"ifTrueActivities": [
