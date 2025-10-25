@@ -75,7 +75,7 @@
 								"source": {
 									"type": "AzureSqlSource",
 									"sqlReaderQuery": {
-										"value": "select * from @{item().schema}.@{item().table} WHERE @{item().cdc_col} > '@{if(empty(item().from_date),activity('cdc_lookup').output.value[0].cdc,item().from_date)}'",
+										"value": "select * from @{item().schema}.@{item().table} WHERE @{item().cdc_col} > '@{if(empty(item().from_date),activity('cdc_lookup').output.value[0].cdc_timestamp,item().from_date)}'",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
