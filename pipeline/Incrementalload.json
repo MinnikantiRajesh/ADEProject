@@ -239,7 +239,7 @@
 												"type": "JsonSource",
 												"additionalColumns": [
 													{
-														"name": "cdc",
+														"name": "cdc_timestamp",
 														"value": {
 															"value": "@activity('max_cdctimestamp').output.resultSets[0].rows[0].cdc",
 															"type": "Expression"
